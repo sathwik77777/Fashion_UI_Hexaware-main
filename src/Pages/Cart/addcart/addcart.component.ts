@@ -36,7 +36,7 @@ export class AddcartComponent {
       console.log(Response);
     });
     this.router.navigateByUrl('customerdashboard/getallcart')
-    ///location.reload();
+    location.reload();
 
   }
 
