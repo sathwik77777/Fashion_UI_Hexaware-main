@@ -3,5 +3,6 @@ export class Cart {
     public userId:any;
     public productId?:number;
     public quantity?:any;
+    //public image?:string | null;
 
 }

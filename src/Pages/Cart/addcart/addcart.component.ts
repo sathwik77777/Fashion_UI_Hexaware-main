@@ -28,6 +28,7 @@ export class AddcartComponent {
   addToCart(productId:any,quantity:any){
     this.cartItem.quantity=quantity;
     this.cartItem.productId=productId;
+    //this.cartItem.image=image;
     this.cartItem.userId=localStorage.getItem('userId');
     this.http
     .post('http://localhost:5254/api/Cart/AddToCart',this.cartItem,this.httpOptions)

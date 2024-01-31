@@ -59,6 +59,7 @@ export class GetallcartComponent {
 
             this.carts1.push({
               cartId:item.cartId,
+              //image:item.image,
               productName: item.name,
               price: item.price,
               quantity: item.quantity,
