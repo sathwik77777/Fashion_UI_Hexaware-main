@@ -5,5 +5,5 @@ export class Product {
     public available?:Boolean;
     public brandId?: number;
     //public brandName?:string;
-    public image?:string | null;
+    public image:any;
 }

@@ -58,8 +58,8 @@ export class GetallcartComponent {
           for (let item of this.cartItems) {
 
             this.carts1.push({
+              image:item.image,
               cartId:item.cartId,
-              //image:item.image,
               productName: item.name,
               price: item.price,
               quantity: item.quantity,
