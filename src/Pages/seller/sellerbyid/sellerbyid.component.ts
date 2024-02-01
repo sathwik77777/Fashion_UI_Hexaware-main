@@ -55,7 +55,7 @@ export class SellerbyidComponent {
   }
   edit() {
     this.http
-      .put('http://localhost:5254/api/Seller/EditSeller', this.seller,this.httpOptions)
+      .put('http://localhost:5254/api/Seller/EditSeller/', this.seller,this.httpOptions)
       .subscribe((response) => {
         console.log(response);
       });
